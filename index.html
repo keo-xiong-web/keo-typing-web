@@ -474,6 +474,23 @@
 
     renderText();
   </script>
+<!-- Privacy Policy Section for Google AdSense -->
+<footer style="text-align: center; padding: 20px; margin-top: 40px; border-top: 1px solid #ccc; font-family: sans-serif;">
+  <p>&copy; 2026 Keo Typing Web. All rights reserved.</p>
+  <p>
+    <a href="#privacy-modal" onclick="document.getElementById('privacy-modal').style.display='block'" style="color: #0066cc; text-decoration: none;">Privacy Policy (ນໂຍບາຍຄວາມເປັນສ່ວນຕົວ)</a>
+  </p>
 
+  <!-- Modal Popup -->
+  <div id="privacy-modal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.6); z-index:9999;">
+    <div style="background:#fff; width:80%; max-width:600px; margin:5% auto; padding:20px; border-radius:8px; position:relative; text-align:left; max-height:80vh; overflow-y:auto; color:#333;">
+      <span onclick="document.getElementById('privacy-modal').style.display='none'" style="position:absolute; right:15px; top:10px; font-size:24px; cursor:pointer; font-weight:bold;">&times;</span>
+      <h2>Privacy Policy</h2>
+      <p>We use third-party advertising companies, such as Google AdSense, to serve ads when you visit our website. These companies may use cookies to serve ads based on a user's prior visits to our website or other websites.</p>
+      <p>Users may opt out of personalized advertising by visiting <a href="https://www.google.com/settings/ads" target="_blank">Google Ads Settings</a>.</p>
+      <button onclick="document.getElementById('privacy-modal').style.display='none'" style="padding:8px 16px; background:#0066cc; color:#fff; border:none; border-radius:4px; cursor:pointer; margin-top:10px;">ປິດ (Close)</button>
+    </div>
+  </div>
+</footer>
 </body>
 </html>
